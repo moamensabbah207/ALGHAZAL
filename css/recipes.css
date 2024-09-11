@@ -159,6 +159,11 @@ main {
         margin-right: 1%;
     }
 }
+@media (min-width: 572px){
+    .recipes-items .back-to {
+        left: 40px;
+    }
+}
 @media (min-width: 992px){
     .recipes-icons .re-icon {
         flex-basis: 32%;
