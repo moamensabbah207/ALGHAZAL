@@ -339,7 +339,7 @@ text-align: center;
     top: 50%;
     transform: translateY(-50%);
     left: 5%;
-    width: 70%;
+    width: 80%;
     color: var(--main-color);
     display: none;
 }
@@ -347,7 +347,7 @@ text-align: center;
     display: block;
 }
 .banner .list .item .content h1 {
-    font-size: 30px;
+    font-size: 25px;
     text-transform: capitalize;
     letter-spacing: 1.5;
     margin-bottom: 10px;
@@ -1033,6 +1033,9 @@ footer .designer a{
         width: 50%;
     }
      /* ====================================end btn icon show========================= */
+    .banner .list .item .content {
+        width: 70%;
+    }
     .banner .list .item .content h1 {
         font-size: 30px;
     }
