@@ -65,8 +65,8 @@ main {
 }
 .recipes-items .back-to {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 20px;
+    left: 20px;
 }
 .recipes-items .back-to a {
     display: inline-block;
@@ -157,11 +157,6 @@ main {
         flex-basis: 48%;
         margin-left: 1%;
         margin-right: 1%;
-    }
-}
-@media (min-width: 572px){
-    .recipes-items .back-to {
-        left: 40px;
     }
 }
 @media (min-width: 992px){
