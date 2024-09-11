@@ -754,17 +754,8 @@ margin: auto;
 
 .why {
     
-    /* background-color: #f6f6f6; */
-    background-image: url(../images/bg-miss.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.why .why-overlay {
+    background-color: rgb(229, 225, 225);
     padding: 70px 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 100%;
 }
 .why .why-text {
     width: 100%;
@@ -774,17 +765,17 @@ margin: auto;
     
 }
 .why .why-text .style-text-p{
-    color: #e5e3da;
+    color: #006769;
 }
 .why .why-text h2 {
     margin: 15px 0;
-    color: #fff;
+    color: #141E46;
 }
 .why .why-text p {
     margin: 10px 0;
     font-size: 14px;
     /* color: rgb(109, 109, 109); */
-    color: #e5e3da;
+    color: #141e46;
 }
 .why .why-boxs {
     display: flex;

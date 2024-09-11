@@ -108,16 +108,12 @@ hr {
 
 
 .mission {
-    background-image: url(../images/bg-miss.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 70px 0;
+    background-color: rgb(229, 225, 225);
 }
 .mission .mission-overlay {
     width: 100%;
     height: 100%;
-    padding: 70px 0;
-    background-color: rgba(0, 0, 0, .6);
 }
 .mission .mission-overlay .mission-items {
     display: flex;
