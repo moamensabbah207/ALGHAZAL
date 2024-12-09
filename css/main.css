@@ -14,7 +14,6 @@ body {
     --elrawda-color: #41B06E;
     --text-larg: #141E46;
     --text-small: #6295A2;
-    /* --text-small: #8DECB4; */
 }
 p{
     font-size: 14px;
@@ -70,13 +69,18 @@ nav {
     
 }
 nav .logo {
-    flex-basis: 35%;
-    height: 55px;
-    padding-left: 10px;
+    flex-basis: 30%;
+    height: 60px;
+    /* padding-left: 10px; */
+}
+nav .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 nav .logo img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 nav .nav-link {
     flex-basis: 55%;
@@ -355,11 +359,6 @@ text-align: center;
     -webkit-animation: animate 1s ease-in-out 0.3s 1 forwards;
             animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
-/* .banner .list .item .content p {
-    opacity: 0;
-    -webkit-animation: animate 1s ease-in-out 0.6s 1 forwards;
-            animation: animate 1s ease-in-out 0.6s 1 forwards;
-} */
 .banner .list .item .content button {
             margin-top: 10px;
             border: none;
@@ -547,7 +546,6 @@ text-align: center;
 
 .experience {
     padding: 70px 20px;
-    /* background-color: #e4e4e4; */
     background-image: url(../images/banner5.png);
     background-position: center;
     background-size: cover;
@@ -596,9 +594,6 @@ margin: auto;
     padding: 10px;
 }
 .quality .quality-imgs {
-    /* background-image: url(../images/fruit-salad.gif);  */
-    /* background-position: center; */
-    /* background-size: cover; */
     display: flex;
     justify-content: space-between;
     height: 300px;
@@ -786,7 +781,6 @@ margin: auto;
 .why .why-boxs .box {
     flex-basis: 100%;
     background-color: #fff;
-    /* height: 370px; */
     margin-bottom: 30px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -810,8 +804,6 @@ margin: auto;
 .why .why-boxs .box .anim {
     width: 100%;
     height: 210px;
-    /* height: 58%; */
-
     border-bottom: 2px solid rgb(51, 141, 51);
 }
 .why .why-boxs .box .content {
@@ -1025,7 +1017,8 @@ footer .designer a{
         font-size: 30px;
     }
     nav .logo {
-        height: 50px;
+        height: 60px;
+        flex-basis: 18%;
     }
     /* ====================================start btn icon show========================= */
     nav .nav-link .btn-links {
@@ -1126,7 +1119,8 @@ footer .designer a{
         font-size: 35px;
     }
     nav .logo {
-        height: 60px;
+        height: 70px;
+        flex-basis: 20%;
     }
     .banner .list .item .content h1 {
         font-size: 35px;
@@ -1168,7 +1162,7 @@ footer .designer a{
 @media (min-width: 992px) {
     nav .logo {
         flex-basis: 15%;
-        height: 70px;
+        height: 80px;
     }
     nav .nav-link {
         flex-basis: 80%;
@@ -1285,7 +1279,7 @@ footer .designer a{
 
 @media (min-width: 1200px) {
     nav .logo {
-        height: 80px;
+        height: 90px;
     }
     nav .nav-link .links ul li a {
         padding: 10px 20px;

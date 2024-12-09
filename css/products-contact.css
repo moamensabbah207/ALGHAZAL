@@ -3,7 +3,6 @@
     --elrawda-color: #41B06E;
     --text-larg: #141E46;
     --text-small: #6295A2;
-    /* --text-small: #8DECB4; */
 }
 header .banner.fruits {
     background-image: url(../images/banner-fruits.jpg);
@@ -245,13 +244,13 @@ header .banner-overlay {
     margin: 0 5px;
     font-size: 26px;
 }
-.contact-call .contact-items .cont-item span:first-child svg {
-    color: #4267B2;
+.contact-call .contact-items .cont-item .fac svg {
+    color: #0866ff;
 }
 .contact-call .contact-items .cont-item .inst svg {
     color: #E1306C;
 }
-.contact-call .contact-items .cont-item span:last-child svg {
+.contact-call .contact-items .cont-item .linked svg {
     color: #0a66c2;
 }
 .contact-call .contact-items .cont-item .address svg {
@@ -260,82 +259,6 @@ header .banner-overlay {
 }
 
 /* ---------------*/
-
-/* .form-ms{
-    padding: 70px 0;
-}
-.form-ms form {
-    width: 100%;
-    text-align: center;
-}
-.form-ms form .input-box {
-    display: flex;
-    justify-content: space-between;
-}
-.form-ms form .input-box .input-field {
-    width: 49%;
-}
-.form-ms form .field .item {
-    width: 100%;
-    padding: 18px;
-    background: transparent;
-    outline: none;
-    border: 1px solid var(--elrawda-color);
-    color: #141E46;
-    margin: 12px 0;
-    font-size: 16px;
-    border-radius: 6px;
-    box-shadow: 0 0 3px var(--elrawda-color);
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-}
-.form-ms form .field .item::placeholder {
-    color: rgba(56, 54, 54, 0.4);
-}
-.form-ms form .field .error-text {
-    font-size: 14px;
-    margin: -5px 0 10px;
-    text-align: left;
-    color: #d93025;
-    display: none;
-}
-.form-ms form .textarea-field .item {
-    resize: none;
-}
-.form-ms form .textarea-field .error-text {
-    margin-top: -10px;
-}
-.form-ms form button {
-    padding: 12px 32px;
-    background-color: var(--elrawda-color);
-    border: none;
-    outline: none;
-    box-shadow: 0 0 10px var(--elrawda-color);
-    font-size: 16px;
-    color: var(--main-color);
-    letter-spacing: 1px;
-    font-weight: 600;
-    cursor: pointer;
-    margin-top: 20px;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-}
-.form-ms form button:hover{
-    background-color: var(--main-color);
-    color: var(--elrawda-color);
-} */
-
-/* -------------------- */
 
 .map {
     width: 100%;
